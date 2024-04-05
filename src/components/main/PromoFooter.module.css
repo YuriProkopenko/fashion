@@ -1,0 +1,53 @@
+/* Promo footer */
+
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  width: 1483px;
+  height: 710px;
+  margin: 220px 219px;
+  cursor: default;
+}
+
+.banner {
+  width: 507px;
+  height: 382px;
+  margin: 181px 305px 147px 0px;
+}
+
+.title {
+  margin-bottom: 41px;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 150%;
+  letter-spacing: 2.7px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.desc {
+  margin-bottom: 65px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: -1px;
+  color: rgb(124, 124, 124);
+}
+
+.apps {
+  display: grid;
+  grid-auto-flow: column;
+}
+
+.button {
+  width: 236px;
+  height: 71px;
+}
+
+.image {
+  position: absolute;
+  top: -11%;
+  right: 0;
+  max-width: 670px;
+}

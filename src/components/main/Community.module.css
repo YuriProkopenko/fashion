@@ -1,0 +1,66 @@
+/* Community */
+
+.wrapper {
+  display: grid;
+  width: 1920px;
+  height: 623px;
+  cursor: default;
+  background: rgb(229, 198, 67);
+}
+
+.title {
+  margin: 141px 478px 37px 476px;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 70px;
+  letter-spacing: 1px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.desc {
+  margin: 0px 455px 49px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: left;
+  color: rgb(255, 252, 248);
+}
+
+.form {
+  position: relative;
+  margin: 0px 673px 156px;
+  width: 574px;
+  height: 87px;
+}
+
+.form-input {
+  height: 100%;
+  width: 100%;
+  padding: 27px 35px 27px 27px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 1px;
+  color: rgb(118, 118, 118);
+  border-radius: 10px;
+  background: rgb(255, 255, 255);
+}
+
+.form-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 161px;
+  height: 67px;
+  font-size: 33px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: capitalize;
+  color: rgb(255, 255, 255);
+  border-radius: 8px;
+  background: rgb(0, 0, 0);
+}

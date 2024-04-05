@@ -1,0 +1,37 @@
+/* Collection */
+
+.wrapper {
+  display: grid;
+  align-items: center;
+  margin: 120px 100px;
+  cursor: default;
+}
+
+.title {
+  position: relative;
+  margin-bottom: 114px;
+  width: max-content;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 50px;
+  letter-spacing: 3px;
+  color: rgb(0, 0, 0);
+}
+
+.title span {
+  position: relative;
+  z-index: 1;
+}
+
+.title:before {
+  content: url(../../graphics//icons//decor-yellow.svg);
+  position: absolute;
+  right: 0px;
+  top: 15px;
+}
+
+.cards {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-between;
+}

@@ -1,0 +1,13 @@
+/* Brands */
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 120px;
+  justify-content: center;
+  align-items: center;
+  width: 1920px;
+  height: 186px;
+  margin: 63px 0px 120px 0px;
+  background: rgb(235, 217, 107);
+}

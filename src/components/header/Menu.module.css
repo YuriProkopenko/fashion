@@ -1,0 +1,33 @@
+/* Menu */
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  column-gap: 65px;
+  justify-content: end;
+  align-items: center;
+}
+
+.wrapper li {
+  cursor: pointer;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 33px;
+  letter-spacing: 1%;
+}
+
+.wrapper li:last-child {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 134px;
+  height: 62px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -3%;
+  color: rgb(254, 254, 254);
+  background: rgb(0, 0, 0);
+  border-radius: 7px;
+}

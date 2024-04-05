@@ -1,0 +1,29 @@
+/* Header */
+
+.wrapper {
+  display: grid;
+  grid-template: 1fr / minmax(auto, 236px) 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 46px 100px 56px 100px;
+}
+
+.logo {
+  display: grid;
+  grid-auto-flow: column;
+  align-items: center;
+  justify-content: start;
+  column-gap: 13px;
+}
+
+.logo-icon {
+}
+
+.logo-title {
+  cursor: default;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 3%;
+  color: rgb(0, 0, 0);
+}

@@ -1,0 +1,113 @@
+/* Promo main */
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  cursor: default;
+  max-width: 1920px;
+  width: 100%;
+  max-height: 968px;
+  height: 100%;
+  background: linear-gradient(
+    0deg,
+    rgb(224, 195, 64),
+    rgb(223, 194, 62) 3.929%,
+    rgb(225, 196, 65) 7.229%,
+    rgb(227, 199, 67) 10.229%,
+    rgb(228, 197, 66) 13.141%,
+    rgb(230, 199, 68) 16.223%,
+    rgb(231, 200, 69) 19.84%,
+    rgb(229, 198, 67) 24.383%,
+    rgb(230, 201, 69) 30.996%,
+    rgb(227, 199, 67) 37.194%,
+    rgb(233, 202, 72) 43.333%,
+    rgb(237, 206, 73) 50.359%,
+    rgb(240, 212, 76) 56.569%,
+    rgb(244, 216, 79) 62.712%,
+    rgb(246, 218, 82) 67.124%,
+    rgb(247, 219, 83) 73.767%,
+    rgb(249, 221, 85) 79.08%,
+    rgb(249, 223, 86) 85.645%,
+    rgb(250, 225, 87) 93.496%,
+    rgb(249, 223, 86) 100%
+  );
+}
+
+.image {
+  width: 992px;
+}
+
+.banner {
+  width: 666px;
+  height: 684px;
+  margin: 128px 199px 155px 67px;
+}
+
+.title {
+  margin-bottom: 33px;
+  font-size: 111.61px;
+  font-weight: 900;
+  line-height: 137.19px;
+  color: rgb(0, 0, 0);
+}
+
+.title-decor-white {
+  position: relative;
+}
+
+.title-decor-white span {
+  position: relative;
+  z-index: 1;
+}
+
+.title-decor-white:before {
+  content: "";
+  position: absolute;
+  width: 541.43px;
+  height: 130.37px;
+  left: -15px;
+  transform: rotate(-2deg);
+  background: rgb(255, 255, 255);
+}
+
+.desc-medium {
+  margin-bottom: 41px;
+  font-size: 36.04px;
+  font-weight: 500;
+  letter-spacing: -1.2px;
+  text-align: left;
+  color: rgb(35, 19, 0);
+}
+
+.desc-bold {
+  margin-bottom: -8px;
+  font-size: 36.04px;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.desc-normal {
+  margin-bottom: 51px;
+  font-size: 36.04px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  text-align: left;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  width: 265.62px;
+  height: 95.33px;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: 0.2px;
+  color: rgb(255, 255, 255);
+  border-radius: 8.14px;
+  background: rgb(0, 0, 0);
+}

@@ -1,0 +1,100 @@
+/* Promo header */
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  position: relative;
+  cursor: default;
+  max-width: 1720px;
+  max-height: 852px;
+  margin: 0px 100px 63px 100px;
+  border-radius: 59px;
+  background: rgb(244, 246, 245);
+}
+
+.banner {
+}
+
+.title {
+  display: grid;
+  max-width: 474px;
+  max-height: 473px;
+  margin: 77px 156px 40px 120px;
+  text-align: left;
+  font-size: 96px;
+  font-weight: 900;
+  line-height: 120px;
+  color: rgb(0, 0, 0);
+}
+
+.title-decor-white,
+.title-decor-yellow {
+  position: relative;
+}
+
+.title-decor-white span,
+.title-decor-yellow span {
+  position: relative;
+  z-index: 1;
+}
+
+.title-decor-white:before {
+  content: "";
+  position: absolute;
+  left: -35px;
+  width: 464.74px;
+  height: 112.14px;
+  transform: rotate(-2deg);
+  background: rgb(255, 255, 255);
+}
+
+.title-decor-yellow:before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 495.79px;
+  height: 117.55px;
+  transform: rotate(-2deg);
+  background: rgb(235, 217, 107);
+}
+
+.desc {
+  margin: 40px 24px 32px 120px;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: -1.5px;
+  color: rgb(0, 0, 0);
+}
+
+.button {
+  position: relative;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 221px;
+  height: 82px;
+  margin: 32px 0px 0px 349px;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 45px;
+  letter-spacing: -5%;
+  color: rgb(255, 255, 255);
+  border-radius: 10px;
+  background: rgb(0, 0, 0);
+}
+
+.button:before {
+  content: url(../../graphics/icons/decor-yellow.svg);
+  position: absolute;
+  cursor: default;
+  left: -224px;
+}
+
+.image {
+  max-height: 784px;
+  max-width: 890px;
+  margin: 68px 80px 0px 0px;
+}

@@ -1,0 +1,14 @@
+/* App */
+
+.wrapper {
+  position: relative;
+  display: grid;
+  grid-template: 1fr / 1fr minmax(auto, 1920px) 1fr;
+  min-height: 100vh;
+}
+
+.container {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-template: minmax(auto, 164px) 1fr minmax(auto, 545px) / 1fr;
+}

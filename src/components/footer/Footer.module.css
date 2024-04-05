@@ -1,0 +1,64 @@
+/* Footer */
+
+.wrapper {
+  display: grid;
+  grid-auto-flow: column;
+  cursor: default;
+  width: 1920px;
+  height: 545px;
+  background: rgb(0, 0, 0);
+}
+
+.info {
+  display: grid;
+  margin: 119px 455px 178px 100px;
+  width: 415px;
+  height: 248.4px;
+}
+
+.title {
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: rgb(255, 255, 255);
+}
+
+.desc {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.8px;
+  color: rgb(142, 142, 142);
+}
+
+.social {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: start;
+  column-gap: 14px;
+}
+
+.links {
+  display: grid;
+  grid-template: 1fr 1fr 1fr 1fr 1fr / repeat(3, 270px);
+  grid-auto-flow: column;
+  width: 850px;
+  height: 273px;
+  margin: 125px 100px 147px 0px;
+}
+
+.link-item,
+.link-item-dedicated {
+  margin-bottom: 32px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  color: rgb(142, 142, 142);
+}
+
+.link-item-dedicated {
+  color: rgb(217, 217, 217);
+}
